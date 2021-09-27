@@ -1,0 +1,64 @@
+INFO -- 08/13/2021 01:23:48 PM -- add_job::445 -- Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO -- 08/13/2021 01:23:48 PM -- _real_add_job::886 -- Added job "main" to job store "default"
+INFO -- 08/13/2021 01:23:48 PM -- start::171 -- Scheduler started
+DEBUG -- 08/13/2021 01:23:48 PM -- _process_jobs::945 -- Looking for jobs to run
+DEBUG -- 08/13/2021 01:23:48 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:23:58.751039+05:30 (in 9.968745 seconds)
+DEBUG -- 08/13/2021 01:23:58 PM -- _process_jobs::945 -- Looking for jobs to run
+INFO -- 08/13/2021 01:23:58 PM -- run_job::123 -- Running job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:23:58 IST)" (scheduled at 2021-08-13 13:23:58.751039+05:30)
+DEBUG -- 08/13/2021 01:23:58 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:08.751039+05:30 (in 9.984124 seconds)
+DEBUG -- 08/13/2021 01:24:08 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:24:08 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:08 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:24:08 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:18.751039+05:30 (in 9.969032 seconds)
+DEBUG -- 08/13/2021 01:24:18 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:24:18 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:18 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:24:18 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:28.751039+05:30 (in 9.980106 seconds)
+DEBUG -- 08/13/2021 01:24:28 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:24:28 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:28 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:24:28 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:38.751039+05:30 (in 9.986495 seconds)
+ERROR -- 08/13/2021 01:24:30 PM -- main::31 -- Database Connection Error
+INFO -- 08/13/2021 01:24:30 PM -- run_job::144 -- Job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:38 IST)" executed successfully
+DEBUG -- 08/13/2021 01:24:38 PM -- _process_jobs::945 -- Looking for jobs to run
+DEBUG -- 08/13/2021 01:24:38 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:48.751039+05:30 (in 9.987635 seconds)
+INFO -- 08/13/2021 01:24:38 PM -- run_job::123 -- Running job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:48 IST)" (scheduled at 2021-08-13 13:24:38.751039+05:30)
+DEBUG -- 08/13/2021 01:24:48 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:24:48 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:48 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:24:48 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:24:58.751039+05:30 (in 9.978431 seconds)
+DEBUG -- 08/13/2021 01:24:58 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:24:58 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:24:58 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:24:58 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:25:08.751039+05:30 (in 9.990374 seconds)
+DEBUG -- 08/13/2021 01:25:08 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:25:08 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:25:08 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:25:08 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:25:18.751039+05:30 (in 9.985100 seconds)
+ERROR -- 08/13/2021 01:25:15 PM -- main::31 -- Database Connection Error
+INFO -- 08/13/2021 01:25:15 PM -- run_job::144 -- Job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:25:18 IST)" executed successfully
+DEBUG -- 08/13/2021 01:25:18 PM -- _process_jobs::945 -- Looking for jobs to run
+DEBUG -- 08/13/2021 01:25:18 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:25:28.751039+05:30 (in 9.978863 seconds)
+INFO -- 08/13/2021 01:25:18 PM -- run_job::123 -- Running job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:25:28 IST)" (scheduled at 2021-08-13 13:25:18.751039+05:30)
+DEBUG -- 08/13/2021 01:25:28 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/13/2021 01:25:28 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-13 13:25:28 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/13/2021 01:25:28 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-13 13:25:38.751039+05:30 (in 9.986751 seconds)
+INFO -- 08/16/2021 12:37:10 PM -- add_job::445 -- Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO -- 08/16/2021 12:37:11 PM -- _real_add_job::886 -- Added job "main" to job store "default"
+INFO -- 08/16/2021 12:37:11 PM -- start::171 -- Scheduler started
+DEBUG -- 08/16/2021 12:37:11 PM -- _process_jobs::945 -- Looking for jobs to run
+DEBUG -- 08/16/2021 12:37:11 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:37:20.965371+05:30 (in 9.959999 seconds)
+DEBUG -- 08/16/2021 12:37:20 PM -- _process_jobs::945 -- Looking for jobs to run
+INFO -- 08/16/2021 12:37:20 PM -- run_job::123 -- Running job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:37:20 IST)" (scheduled at 2021-08-16 12:37:20.965371+05:30)
+DEBUG -- 08/16/2021 12:37:20 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:37:30.965371+05:30 (in 9.986127 seconds)
+DEBUG -- 08/16/2021 12:37:30 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/16/2021 12:37:30 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:37:30 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/16/2021 12:37:30 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:37:40.965371+05:30 (in 9.982739 seconds)
+DEBUG -- 08/16/2021 12:37:40 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/16/2021 12:37:40 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:37:40 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/16/2021 12:37:40 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:37:50.965371+05:30 (in 9.984736 seconds)
+DEBUG -- 08/16/2021 12:37:50 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/16/2021 12:37:50 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:37:50 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/16/2021 12:37:50 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:38:00.965371+05:30 (in 9.983444 seconds)
+ERROR -- 08/16/2021 12:37:53 PM -- main::31 -- Database Connection Error
+INFO -- 08/16/2021 12:37:53 PM -- run_job::144 -- Job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:38:00 IST)" executed successfully
+DEBUG -- 08/16/2021 12:38:00 PM -- _process_jobs::945 -- Looking for jobs to run
+DEBUG -- 08/16/2021 12:38:00 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:38:10.965371+05:30 (in 9.993829 seconds)
+INFO -- 08/16/2021 12:38:00 PM -- run_job::123 -- Running job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:38:10 IST)" (scheduled at 2021-08-16 12:38:00.965371+05:30)
+DEBUG -- 08/16/2021 12:38:10 PM -- _process_jobs::945 -- Looking for jobs to run
+WARNING -- 08/16/2021 12:38:10 PM -- _process_jobs::981 -- Execution of job "main (trigger: interval[0:00:10], next run at: 2021-08-16 12:38:10 IST)" skipped: maximum number of running instances reached (1)
+DEBUG -- 08/16/2021 12:38:10 PM -- _process_jobs::1024 -- Next wakeup is due at 2021-08-16 12:38:20.965371+05:30 (in 9.989449 seconds)
